@@ -1,0 +1,245 @@
+.menu{
+	text-align: center; /* место текста */
+	position: fixed; /* место на странице */ 
+	top: 0px; /* отступ сверху */
+	width: 100%; /* ширина */
+	background-color: white; /* цвет фона */
+	opacity: 0.8; /* прозрачность */
+
+}
+body{
+	margin: 0px; /* внешние отступы */
+}
+.menu a{
+	text-decoration: none; /* линия под текстом */
+	color: black; /* цвет текста */
+	display: inline-block; /* представление элемента как блок или текст */
+	width: 100px;/* ширина */
+	padding: 20px 40px; /* внутренние отступы */
+    font-weight:lighter; /* толщина текста */
+}
+.menu a:hover{
+	background-color: #ccc;/* цвет фона */
+	color: black; /* цвет текста */
+
+}
+.header{
+   text-align: center; /* место текста */
+   color: #fff; /* цвет текста */
+   padding: 200px 0px; /* внутренние отступы */
+   background-attachment: fixed; /* фиксация фона */
+   background-image:url(images/polygons.png); /* использовать картинку в качестве фона */
+   background-size: cover;/* размер фона */
+   background-position: center;/* расположение фона */
+}
+.header p{
+	margin: 45px 0px;/* внешние отступы */
+
+}
+.header a{
+	padding: 12px 24px;/* внутренние отступы */
+	background-color: #fff;/* цвет фона */
+	border-radius: 10px;/* закругление углов */
+	text-decoration: none;/* линия под текстом */
+	color: #000;/* цвет */
+	transition: 0.5s;/* время анимации */
+    
+}
+.header a:hover{
+	background-color: #b1b1b2;/* цвет фона */
+
+}
+.about{
+	max-width: 1200px;/* максимальная ширина */
+	margin: 0 auto;/* внешние отступы */
+	padding: 40px 0px;/* внутринние отступы */
+	text-align: justify;/* оптикание картинки текста */
+
+}
+.about img{
+	width: 400px;/* ширина */
+	float: right;/* выравнивание элемента слева */ 
+	margin: 30px;/* внешние отступы */
+	margin-top: 0;/* верхний внешний отспуп */
+
+}
+.about h2{
+	text-align: center;/* место текста (по центру) */
+
+}
+
+.team{
+	text-align: center;/* место текста (по центру) */
+
+}
+.member{
+	display: inline-block;/* представление элемента как блок или текст */
+	width: 20%;/* ширина */
+	min-width: 300px;/* минимальная ширина */
+	vertical-align: top;/* выравнивание по вертикали */
+	margin: 20px 10px;/* внешний отступ */
+	text-align: left;/* место текста (слево) */
+	padding: 20px;/* внутренний отступ */
+	box-shadow: 0 2px 5px grey;/* тень коробочки */
+	box-sizing: border-box;/* ширина включает в себя внутренние отступы (без margin) */
+
+
+}
+.member img{
+    width: 100%;/* ширина */
+
+}
+.member h3{
+    font-weight: 400;/* ширина текста */
+    font-size: 24px;/* размер текста */
+
+}
+.member .position{
+	opacity: 0.55;/* прозрачность */
+}
+.member a{
+	display: inline-block;/* представление элемента как блок или текст */
+	width: 100%;/* ширина */
+	background-color: #055b73;/* цвет фона */
+	border-radius: 10px;/* закругление кругов */
+	text-decoration: none;/* линия под текстом */
+	color: #fff;/* цвет */
+	padding: 14px 0;/* внутренний отступ */
+	text-align: center;/* место текста (по центру) */
+
+}
+.prices{
+	background-color: #616161;/* цвет фона */
+	text-align: center;/* выравнивание текста по центру */
+	padding: 50px 0;/* внутренний отступ */
+
+}
+.prices h2, .prices  p{
+    color: #fff;/* цвет */
+}
+.tariff{
+    display: inline-block;/* представление элемента как блок или текст */
+    width: 30%;/* ширина */
+    min-width: 300px;/* минимальная ширина */
+    margin: 10px;/* внешний отступ */
+    vertical-align: middle;/* вертикальное выпрямление */
+    background-color: #fff;/* цвет фона */
+    padding: 0;/* внутренний отступ */
+
+}
+.tariff li{
+	list-style-type: none;/* для списка ul вместо маркеров-точек сделать квадраты или окружности */
+	border-bottom: 1px solid #dddddd;/* толщина, цвет, стиль границы внизу елемента*/
+	padding: 16px 0;/* внутренний отступ */
+
+}
+.tariff-name{
+	color: #fff;/* цвет */
+	background-color: #000;/* цвет фона */
+	font-size: 24px;/* размер текста */
+	padding: 32px 0;/* внутренний отступ */
+}
+.tariff li:last-child{
+	background-color: #f1f1f1;/* цвет фона */
+	padding: 24px 0;/* внутренний отступ */
+}
+.tariff .price{
+	color: #000;/* цвет */
+	font-weight: bold;/* толщина текста */
+	font-size: 24px;/* размер текста*/
+
+}
+.tariff .period{
+	color: #000;/* цвет */
+	opacity: 0.4;/* прозрачность */
+}
+.tariff a{
+	background-color: #000;/* цвет фона */
+	padding: 12px 24px;/* внутренний отступ */
+	color: #fff;/* цвет */
+	text-decoration: none;/* линия под текстом */
+	border-radius: 10px;/* закругление углов */
+}
+.tariff .best {
+	background-color: #055b73;/* цвет фона */
+	padding: 48px 0;/* внутренний отступ */
+}
+.contact{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 40px 0;
+
+}
+.contact-info{
+	text-align: left;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	margin-left: 5%;
+
+}
+.contact-address{
+	background-image: url(images/address.png);
+
+}
+.contact-phone{
+	background-image: url(images/phone.png);
+}
+.contact-mail{
+	background-image: url(images/mail.png);
+}
+input{
+	padding: 8px;
+	width: 90%;
+
+}
+button{
+	background-color: #000;
+	color: #fff;
+	padding: 10px 16px;/* внутренний отступ */
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+
+}
+button:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+.footer{
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

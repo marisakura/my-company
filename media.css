@@ -1,0 +1,29 @@
+@media (max-width: 575px){
+	.menu{
+		position: static;
+	}
+	.menu a{
+		padding: 20px 0;
+		width: 100%;
+	}
+	.header{
+		padding: 100px 10px;
+	}
+	.about img{
+		width: 90%;
+		margin: 10px 5%;
+		float: none;
+	}
+	.member{
+		min-width: 80%;
+
+	}
+	.tariff{
+		width: 90%;
+	}
+	input{
+		padding: 12px 8px;
+		margin: 5px 0;
+	
+	}
+}
